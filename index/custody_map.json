@@ -1,0 +1,12 @@
+{
+  "BTC": ["BitGo", "Coinbase", "Anchorage"],
+  "ETH": ["BitGo", "Coinbase", "Anchorage"],
+  "SOL": ["BitGo", "Coinbase"],
+  "XRP": ["BitGo", "Anchorage"],
+  "ADA": ["BitGo", "Coinbase"],
+  "DOGE": ["BitGo"],
+  "AVAX": ["BitGo", "Coinbase"],
+  "DOT": ["BitGo", "Coinbase"],
+  "LINK": ["BitGo", "Coinbase"],
+  "LTC": ["BitGo", "Coinbase"]
+}

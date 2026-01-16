@@ -1,0 +1,13 @@
+{
+    "BTC": { "free_float_factor": 1.0, "notes": "High dispersion, minimal locked supply" },
+    "ETH": { "free_float_factor": 1.0, "notes": "Foundation holdings negligible relative to float" },
+    "SOL": { "free_float_factor": 0.85, "notes": "Significant Foundation/Grant locks" },
+    "XRP": { "free_float_factor": 0.55, "notes": "Large escrow holdings by Ripple Labs" },
+    "ADA": { "free_float_factor": 0.80, "notes": "Treasury/Genesis holdings" },
+    "DOT": { "free_float_factor": 0.85, "notes": "Web3 Foundation holdings" },
+    "DOGE": { "free_float_factor": 1.0, "notes": "No central entity" },
+    "AVAX": { "free_float_factor": 0.70, "notes": "Vesting schedules" },
+    "LINK": { "free_float_factor": 0.60, "notes": "Team/Node Operator reserves" },
+    "USDC": { "free_float_factor": 1.0, "notes": "Stablecoin (excluded anyway)" },
+    "USDT": { "free_float_factor": 1.0, "notes": "Stablecoin (excluded anyway)" }
+}
