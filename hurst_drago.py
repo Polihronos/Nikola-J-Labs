@@ -18,9 +18,11 @@ class MarketBehaviorAnalyzer:
 
 
 
-    # def hurst_exponent(self, power_min=2, power_max=10, expected_hurst_value=0.5):
-    def hurst_exponent(self, power_min=2, power_max=8, expected_hurst_value=0.5): # power_max = 8 because 2^8 = 256, which matches the sample size
+    
+    def hurst_exponent(self, power_min=4, power_max=None, expected_hurst_value=0.5): 
 
+        if power_max is None:
+            power_max = int(math.log2(len(self.returns)))
 
         max_observations_count = 2**power_max
 
